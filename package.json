@@ -8,7 +8,7 @@
     "start": "parallelshell \"npm run script\" \"npm run watch\" \"npm run serve\" \"npm run stub\"",
     "assets": "node ./tasks/assets.js",
     "script": "watchify --verbose --debug ./src/index.js -o ./dist/index.js -t [ babelify --presets [ es2015 ] ]",
-    "serve": "http-server -c-1 ./dist;",
+    "serve": "http-server -c-1 ./dist",
     "watch": "node ./tasks/watch.js",
     "stub": "node ./lib/stub-server.js"
   },
