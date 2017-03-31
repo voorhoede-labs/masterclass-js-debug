@@ -1,0 +1,5 @@
+[
+  "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "./src/index.html",
+  "./src/breakpoints.html"
+]
